@@ -1,0 +1,11 @@
+h1 {
+  font-weight: 800;
+  color: purple;
+  text-align: center;
+}
+
+.centered {
+  background: rgb(223, 196, 250);
+  padding: 5px;
+  margin: 5px;
+}

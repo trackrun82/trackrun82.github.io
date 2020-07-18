@@ -1,54 +1,78 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-  <meta charset="UTF-8">
-  <title>Beth Emborsky Bio</title>
-</head>
-
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Beth Emborsky portfolio</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+    </head>
 <body>
-  <h1>Beth Emborsky</h1>
-  <img width = "300" src="assets/WIN_20200516_11_27_17_Pro.jpg", alt="Image of Beth Emborsky">
-  <p>
-    I live in Denver, CO.
-  </p>
-  <p>
-    I love my 2 dogs.
-  </p>
+  <div class="row">
+    <div class = "col-md-12">
+      <h1>Beth Emborsky's Portfolio</h1>
+    </div>
+  </div>
+  
+  
+  <div class="card mb-3" style="max-width: 1000px;">
+    <div class="centered">
+      <div class="row no-gutters">
+        <div class="col-md-6">
+          <img src="Resources/Assets/images/Beth Emborsky profile picture.jpg" class="card-img" alt="Beth Emborsky profile picture">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h5 class="card-title">Biography</h5>
+            <p class="card-text">This portfolio page showcases projects completed during Data Analysis bootcamp.</p>
+            <h6 class="card-subtitle mb-2 text-muted">Contacts</h6>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Email: trackrun82@yahoo.com</li>
+              <li class="list-group-item">Phone: 317-753-3057</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="card-deck">
+    <div class="card">
+      <img src="Resources/Assets/images/Flu Case Totals vs. Avg. Temperature for All States.png" class="card-img-top" alt="Flu Case Totals vs. Avg. Temperature for All States">
+      <div class="card-body">
+        <h5 class="card-title">Project 1</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Flu vs. Weather</h6>
+        <p class="card-text">This project was to see if weather had an influence on cases of flu for various cities in the US.</p>
+        <button type="button" class="btn btn-outline-primary">
+          <a target="_blank" href="https://github.com/p4rc1v4l/flu_vs_weather" class="card-link"> Project 1 github</a>
+        </button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Resources/Assets/images/project 2 image.jpg" class="card-img-top" alt="Project 2 image">
+      <div class="card-body">
+        <h5 class="card-title">Project 2</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Project 2 Title</h6>
+        <p class="card-text">This is a holding point for future project content.</p>
+        <button type="button" class="btn btn-outline-primary">
+          <a target="_blank" href="" class="card-link"> Project 2 github</a>
+        </button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="Resources/Assets/images/big data analyst.jpg" class="card-img-top" alt="Big Data Analyst">
+      <div class="card-body">
+        <h5 class="card-title">Project 3</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Project 3 Title</h6>
+        <p class="card-text">This is a holding point for future project content.</p>
+        <button type="button" class="btn btn-outline-primary">
+          <a target="_blank" href="" class="card-link"> Project 3 github</a>
+        </button>
+      </div>
+    </div>
+  </div>
 
-  <h2>My Social Media pages</h2>
-    <ul>
-        <li><strong>LinkedIn</strong></li>
-        <li><strong>Facebook</strong></li>
-    </ul>
-
-  <table border="1">
-    <thead>
-        <tr>
-        <th colspan = "4", bgcolor="gray">Favorites</th>
-        </tr>
-        <tr>
-        <th>Favorite Movies</th>
-        <th>Favorite Activities</th>
-        <th>Favorite Actors</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Titantic</td>
-            <td>Golfing</td>
-            <td>Leonardo DiCaprio</td>
-        </tr>
-        <tr>
-            <td>Romeo and Juliet</td>
-            <td>Bowling</td>
-            <td>Will Ferrell</td>
-        </tr>
-  </table>
-
-  <!-- Bonus link to last class page -->
-  <a href="../../../../1/Activities/04-Stu_MyFirst_HTML/Solved/my-first-bonus.html">My First HTML Bonus</a>
-
-
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
-
 </html>
